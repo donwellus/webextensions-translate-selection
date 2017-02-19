@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "translate-selection/",
+    "description": "Translate selection",
+    "version": "0.1",
+    "homepage_url": "https://github.com/donwellus/webextensions-translate-selection",
+
+    "icons": {
+        "48": "icons/clipboard-48.png"
+    },
+
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content-script.js"]
+    }]
+}
